@@ -1,5 +1,19 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
 __pycache__/
-*.pkl
-*.pyc
+*.py[cod]
+
+# 虚拟环境
 .venv/
+venv/
 env/
+
+# 编辑器
+.idea/
+.vscode/
+
+# 系统
+.DS_Store
+Thumbs.db
