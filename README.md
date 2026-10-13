@@ -30,7 +30,7 @@
 | conda 环境 | `exp_env`（独立环境，未使用 base） |
 | Python | 3.11.17 |
 | Jupyter | notebook 7.6.3、jupyterlab 4.6.4 |
-| 内核 | 环境自带的 \python3`，在 Notebook 中显示为 `exp_env` |`
+| 内核 | 环境自带的 `python3`，在 Notebook 中显示为 `exp_env` |
 | 其他库 | numpy 2.4.6、pandas 3.0.6、matplotlib 3.11.1 |
 
 环境复现命令：
@@ -44,7 +44,7 @@ conda install -y jupyter ipykernel numpy pandas matplotlib
 ## 如何运行
 
 1. 启动 Jupyter：先 `conda activate exp_env`，再执行 `jupyter notebook`
-2. 打开 \20244630202_赵怡然_exp01.ipynb`，右上角内核选择 `exp_env``
+2. 打开 `20244630202_赵怡然_exp01.ipynb`，右上角内核选择 `exp_env`
 3. 菜单 **Kernel → Restart Kernel and Run All Cells**，从头到尾顺序运行
 4. 作业 `20244630202_赵怡然_hw01.ipynb` 同样操作
 
