@@ -1,8 +1,5 @@
-"""实验4 的解析工具模块。"""
-
 
 def parse_student(line):
-    """把一行 'name,score' 解析成字典；无效记录抛 ValueError。"""
     fields = line.strip().split(",")
     if len(fields) != 2:
         raise ValueError(f"字段数量应为 2，实际为 {len(fields)}")
